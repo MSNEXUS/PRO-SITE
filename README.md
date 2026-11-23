@@ -461,3 +461,14 @@ The review consolidates ProSite product direction, connected workflows, domain/d
 **Important inspection note:** the trial repository's ZIP metadata was verified, but the binary archive could not be extracted by the connected GitHub text reader. The blueprint explicitly records this as an open inspection blocker; it does not claim that the ZIP's source code has been audited or tested.
 
 **Product separation:** ProSite remains the M and S Construction Tech SaaS product with QuoteFlow commercial workflows. ICA remains a separate offline-first internal system. ProSite's cloud, multi-company, document and invoice features are not ICA requirements. ICA's exclusions and approved controls must not be overwritten by ProSite design material.
+
+
+---
+
+## Payroll and multi-office expense management
+
+**2026-11-23 — Proposed specification added**
+
+- [Payroll, Workforce Costs & Office Expense Management Specification](docs/payroll-and-office-expense-management-specification.md)
+
+This proposal covers employee salary profiles, payroll periods and runs, attendance inputs, salary advances, payslips, multiple offices/cost centres, rent, utilities, recurring bills, expense payments and reporting. Salary earned, salary paid, project labour cost and office overhead remain distinct. Payroll/statutory formulas and accounting rules require approval and professional review before production use.

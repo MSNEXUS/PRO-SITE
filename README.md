@@ -444,3 +444,20 @@ Quotation statuses:
 - Expired.
 
 Allow an accepted quotation to be converted into a project
+
+
+---
+
+## Cross-repository review and consolidated blueprint
+
+**Latest review: 2026-11-23**
+
+A structured review has been added after comparing the Prosite-Trial-Templates repository, the ProSite concept repository, this product brief, and the relevant ICA construction-office specifications.
+
+- [Cross-Repository Review & Consolidated Product Blueprint](docs/cross-repository-review-and-consolidated-blueprint.md)
+
+The review consolidates ProSite product direction, connected workflows, domain/data-integrity rules, architecture recommendations, delivery priorities, open decisions and the boundaries between ProSite and ICA.
+
+**Important inspection note:** the trial repository's ZIP metadata was verified, but the binary archive could not be extracted by the connected GitHub text reader. The blueprint explicitly records this as an open inspection blocker; it does not claim that the ZIP's source code has been audited or tested.
+
+**Product separation:** ProSite remains the M and S Construction Tech SaaS product with QuoteFlow commercial workflows. ICA remains a separate offline-first internal system. ProSite's cloud, multi-company, document and invoice features are not ICA requirements. ICA's exclusions and approved controls must not be overwritten by ProSite design material.
